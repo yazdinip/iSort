@@ -3,7 +3,7 @@
 
 A sample run of ./driver 4, will give the following output:
 
-`./driver 4
+`./driver 4`
 initial configuration
 
         ooo|ooo
@@ -39,8 +39,8 @@ final configuration
 XXXXXXXXXXXXXXXXXXXXXXXX`
 
 The following commands will create a driver executable file called driver which we use to see the result: The following commands must be executed from the src directory.
-`1) nasm -f elf sorthem.asm -o sorthem.o
-2) nasm -f elf -d ELF_TYPE asm_io.asm
-3) gcc -m32 -c ../util/driver.c -o driver.o
-4) gcc -m32 ../util/driver.o sorthem.o asm_io.o -o driver
-./driver 7`
+1) `nasm -f elf sorthem.asm -o sorthem.o`
+2) `nasm -f elf -d ELF_TYPE asm_io.asm`
+3) `gcc -m32 -c ../util/driver.c -o driver.o`
+4) `gcc -m32 ../util/driver.o sorthem.o asm_io.o -o driver`
+`./driver 7`

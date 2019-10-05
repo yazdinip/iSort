@@ -6,17 +6,17 @@ A sample run of ./driver 4, will give the following output:
 `./driver 4`
  initial configuration
 
-`         ooo|ooo
-           oo|oo
-            o|o
-         oooo|oooo
-  XXXXXXXXXXXXXXXXXXXXXXXX`
+  `       ooo|ooo`
+  `        oo|oo`
+      `     o|o`
+     `   oooo|oooo`
+`  XXXXXXXXXXXXXXXXXXXXXXXX`
 
          ooo|ooo
           oo|oo
            o|o
         oooo|oooo
- XXXXXXXXXXXXXXXXXXXXXXXX
+  XXXXXXXXXXXXXXXXXXXXXXXX
 
           oo|oo
          ooo|ooo

@@ -43,4 +43,4 @@ The following commands will create a driver executable file called driver which 
 2) nasm -f elf -d ELF_TYPE asm_io.asm
 3) gcc -m32 -c ../util/driver.c -o driver.o
 4) gcc -m32 ../util/driver.o sorthem.o asm_io.o -o driver
-./driver 7
+`./driver 7`

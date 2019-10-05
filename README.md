@@ -4,7 +4,7 @@
 A sample run of ./driver 4, will give the following output:
 
 `./driver 4`
-   initial configuration
+`   initial configuration
 
            ooo|ooo
             oo|oo
@@ -36,7 +36,7 @@ A sample run of ./driver 4, will give the following output:
             oo|oo
            ooo|ooo
           oooo|oooo
-    XXXXXXXXXXXXXXXXXXXXXXXX
+    XXXXXXXXXXXXXXXXXXXXXXXX`
 
 The following commands will create a driver executable file called driver which we use to see the result: The following commands must be executed from the `src` directory.
 1) `nasm -f elf sorthem.asm -o sorthem.o`
